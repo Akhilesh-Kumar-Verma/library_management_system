@@ -1,0 +1,10 @@
+
+#author {
+	counter-reset: authorCount;
+}
+
+#author>label::after {
+	counter-increment: authorCount;
+	content: counter(authorCount);
+}
+
