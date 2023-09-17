@@ -1,0 +1,19 @@
+
+#email {
+	counter-reset: emailCount;
+}
+
+#email>label::after {
+	counter-increment: emailCount;
+	content: counter(emailCount);
+}
+
+#phone {
+	counter-reset: phoneCount;
+}
+
+#phone>label::after {
+	counter-increment: phoneCount;
+	content: counter(phoneCount);
+}
+
